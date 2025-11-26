@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>⚙️ Админ-панель</h1>
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <a href="/">В магазин</a>
+                </div>
+                <div class="auth-section">
+                    <button id="theme-toggle" class="btn-icon">🌙</button>
+                    <button id="logout-btn" class="btn-secondary">Выйти</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Admin Login Form -->
+            <div id="admin-login" class="admin-section">
+                <h2>Вход в админ-панель</h2>
+                <form id="admin-login-form">
+                    <div class="form-group">
+                        <label for="admin-username">Логин:</label>
+                        <input type="text" id="admin-username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="admin-password">Пароль:</label>
+                        <input type="password" id="admin-password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Войти</button>
+                </form>
+            </div>
+
+            <!-- Admin Dashboard -->
+            <div id="admin-dashboard" style="display: none;">
+                <!-- Statistics -->
+                <section class="admin-section">
+                    <h2>Статистика</h2>
+                    <div id="stats-container" class="stats-grid">
+                        <!-- Stats will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Categories Management -->
+                <section class="admin-section">
+                    <h2>Управление категориями</h2>
+                    <form id="add-category-form" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" id="category-name" placeholder="Название категории" required>
+                        </div>
+                        <button type="submit" class="btn-primary">Добавить категорию</button>
+                    </form>
+                    <div id="categories-list" class="categories-management">
+                        <!-- Categories will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Products Management -->
+                <section class="admin-section">
+                    <h2>Управление товарами</h2>
+                    <form id="add-product-form">
+                        <div class="form-group">
+                            <label for="product-name">Название:</label>
+                            <input type="text" id="product-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="product-price">Цена (₸):</label>
+                            <input type="number" id="product-price" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="product-category">Категория:</label>
+                            <select id="product-category" required>
+                                <!-- Categories will be loaded here -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="product-description">Описание:</label>
+                            <textarea id="product-description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="product-discount">Скидка (%):</label>
+                            <input type="number" id="product-discount" min="0" max="100" value="0">
+                        </div>
+                        <button type="submit" class="btn-primary">Добавить товар</button>
+                    </form>
+                    <div id="products-management-list">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Reviews Management -->
+                <section class="admin-section">
+                    <h2>Управление отзывами</h2>
+                    <div id="reviews-list">
+                        <!-- Reviews will be loaded here -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/theme.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

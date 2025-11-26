@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин - Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>🛍️ Магазин</h1>
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <a href="#" class="active">Магазин</a>
+                    <a href="#" id="profile-link">Личный кабинет</a>
+                    <a href="/admin.html" id="admin-link">Админ-панель</a>
+                </div>
+                <div class="auth-section">
+                    <button id="auth-btn" class="btn-secondary">Войти</button>
+                    <button id="theme-toggle" class="btn-icon">🌙</button>
+                    <button id="cart-toggle" class="btn-icon">🛒</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="filters">
+                <h2>Фильтр по категориям</h2>
+                <div id="categories-filter" class="categories-list">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </section>
+
+            <section class="products">
+                <h2>Каталог товаров</h2>
+                <div id="products-grid" class="products-grid">
+                    <!-- Products will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Cart Slider -->
+    <div id="cart-slider" class="cart-slider">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <button id="close-cart" class="btn-icon">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Итого: <span id="cart-total-price">0</span> ₸</strong>
+            </div>
+            <button id="checkout-btn" class="btn-primary">Оплатить</button>
+            <button id="register-prompt-btn" class="btn-secondary" style="display: none;">Зарегистрироваться</button>
+            <button id="continue-shopping" class="btn-secondary">Продолжить покупки</button>
+        </div>
+    </div>
+    <div id="cart-overlay" class="cart-overlay"></div>
+
+    <!-- Auth Modal -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="auth-modal-title">Вход</h3>
+                <button id="close-auth-modal" class="btn-icon">✕</button>
+            </div>
+            <form id="auth-form">
+                <div class="form-group">
+                    <label for="username">Имя пользователя:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div id="email-field" class="form-group" style="display: none;">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <button type="submit" class="btn-primary">Войти</button>
+            </form>
+            <div class="auth-switch">
+                <p id="auth-switch-text">Нет аккаунта? <a href="#" id="auth-switch-link">Зарегистрироваться</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Магазин. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

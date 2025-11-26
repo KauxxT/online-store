@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "userId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "name": "Футболка",
+        "price": 4500,
+        "quantity": 1,
+        "image": "/assets/tshirt.jpg"
+      }
+    ],
+    "total": 4500,
+    "createdAt": "2025-11-26T04:57:57.765Z",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "name": "Футболка",
+        "price": 4500,
+        "quantity": 1,
+        "image": "/assets/tshirt.jpg"
+      }
+    ],
+    "total": 4500,
+    "createdAt": "2025-11-26T04:58:22.760Z",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "items": [
+      {
+        "productId": 1,
+        "name": "Смартфон",
+        "price": 150000,
+        "quantity": 1,
+        "image": "/assets/phone.jpg"
+      }
+    ],
+    "total": 150000,
+    "createdAt": "2025-11-26T05:00:13.497Z",
+    "status": "completed"
+  }
+]

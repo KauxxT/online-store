@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>👤 Личный кабинет</h1>
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <a href="/">В магазин</a>
+                </div>
+                <div class="auth-section">
+                    <button id="theme-toggle" class="btn-icon">🌙</button>
+                    <button id="logout-btn" class="btn-secondary">Выйти</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="profile-content">
+                <!-- User Info -->
+                <section class="admin-section">
+                    <h2>Информация о пользователе</h2>
+                    <div id="user-info">
+                        <!-- User data will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Tabs -->
+                <div class="profile-tabs">
+                    <div class="profile-tab active" data-tab="cart">Корзина</div>
+                    <div class="profile-tab" data-tab="favorites">Избранное</div>
+                    <div class="profile-tab" data-tab="orders">История покупок</div>
+                    <div class="profile-tab" data-tab="reviews">Мои отзывы</div>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tab-content active" id="cart-tab">
+                    <h3>Корзина</h3>
+                    <div id="profile-cart-items">
+                        <!-- Cart items will be loaded here -->
+                    </div>
+                    <div class="cart-total">
+                        <strong>Итого: <span id="profile-cart-total">0</span> ₸</strong>
+                    </div>
+                    <button id="profile-checkout-btn" class="btn-primary">Оплатить</button>
+                </div>
+
+                <div class="tab-content" id="favorites-tab">
+                    <h3>Избранное</h3>
+                    <div id="favorites-list" class="products-grid">
+                        <!-- Favorites will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="tab-content" id="orders-tab">
+                    <h3>История покупок</h3>
+                    <div id="orders-list">
+                        <!-- Orders will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="tab-content" id="reviews-tab">
+                    <h3>Мои отзывы</h3>
+                    <form id="add-review-form" class="admin-section">
+                        <div class="form-group">
+                            <label for="review-product">Товар:</label>
+                            <select id="review-product" required>
+                                <option value="">Выберите товар</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review-text">Отзыв:</label>
+                            <textarea id="review-text" required placeholder="Напишите ваш отзыв..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="review-rating">Оценка:</label>
+                            <select id="review-rating" required>
+                                <option value="5">★★★★★</option>
+                                <option value="4">★★★★☆</option>
+                                <option value="3">★★★☆☆</option>
+                                <option value="2">★★☆☆☆</option>
+                                <option value="1">★☆☆☆☆</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Оставить отзыв</button>
+                    </form>
+                    <div id="user-reviews-list">
+                        <!-- User reviews will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="login-prompt" style="display: none; text-align: center; padding: 2rem;">
+                <h2>Доступ запрещен</h2>
+                <p>Войдите в систему как пользователь для доступа к личному кабинету.</p>
+                <a href="/" class="btn-primary">На главную</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/theme.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата успешна</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>🛍️ Магазин</h1>
+            </div>
+            <nav>
+                <div class="auth-section">
+                    <button id="theme-toggle" class="btn-icon">🌙</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="success-page">
+                <div class="success-icon">✅</div>
+                <h1>Оплата прошла успешно!</h1>
+                <p>Спасибо за ваш заказ. Мы обработаем его в ближайшее время.</p>
+                
+                <div id="order-details" class="admin-section">
+                    <h3>Детали заказа</h3>
+                    <div id="order-items">
+                        <!-- Order items will be loaded here -->
+                    </div>
+                    <div class="order-total">
+                        <strong>Итого: <span id="order-total-amount">0</span> ₸</strong>
+                    </div>
+                </div>
+
+                <div class="success-actions">
+                    <a href="/" class="btn-primary">Вернуться в магазин</a>
+                    <a href="/profile.html" class="btn-secondary">В личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/theme.js"></script>
+    <script src="js/success.js"></script>
+</body>
+</html>

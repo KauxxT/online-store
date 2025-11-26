@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "email": "admin@store.kz",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "username": "Kai",
+    "password": "123",
+    "email": "123@gmail.om",
+    "role": "user",
+    "createdAt": "2025-11-26T04:57:13.934Z"
+  },
+  {
+    "id": 3,
+    "username": "Tai",
+    "password": "123",
+    "email": "123@gmail.com",
+    "role": "user",
+    "createdAt": "2025-11-26T05:00:05.388Z"
+  }
+]

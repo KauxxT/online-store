@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Смартфон",
+    "price": 150000,
+    "categoryId": 1,
+    "description": "Современный смартфон с отличной камерой",
+    "image": "/assets/phone.jpg",
+    "discount": 0,
+    "stats": {
+      "purchased": 1,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "Футболка",
+    "price": 5000,
+    "categoryId": 2,
+    "description": "Хлопковая футболка премиум качества",
+    "image": "/assets/tshirt.jpg",
+    "discount": 10,
+    "stats": {
+      "purchased": 2,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "Путь Абая",
+    "price": 12000,
+    "categoryId": 3,
+    "description": "Сборник из трех книг",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "userId": 3,
+    "userName": "Tai",
+    "productId": 1,
+    "text": "Отзыв",
+    "rating": 4,
+    "createdAt": "2025-11-26T05:00:24.332Z",
+    "adminReply": "Принял"
+  }
+]
