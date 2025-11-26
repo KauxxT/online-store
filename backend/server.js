@@ -7,6 +7,7 @@ const querystring = require('querystring');
 const PORT = process.env.PORT || 3000;
 const DATA_DIR = path.join(__dirname, 'data');
 
+
 // Ensure data directory exists
 if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -144,6 +145,68 @@ const handleAPI = (req, res) => {
                 });
             } else {
                 sendResponse(res, 401, { success: false, message: 'Неверные учетные данные' });
+            }
+        });
+        return;
+    }
+    // Загрузка изображений
+    if (pathname === '/api/upload' && method === 'POST') {
+        // Простая реализация загрузки - в реальном приложении используйте multer
+        let body = '';
+        req.on('data', chunk => body += chunk);
+        req.on('end', () => {
+            try {
+                const { imageData, filename } = JSON.parse(body);
+                // Простая реализация - сохраняем как base64
+                const imagePath = path.join(__dirname, '../frontend/assets', filename);
+                const base64Data = imageData.replace(/^data:image\/\w+;base64,/, '');
+                const buffer = Buffer.from(base64Data, 'base64');
+                
+                fs.writeFileSync(imagePath, buffer);
+                sendResponse(res, 200, { success: true, imageUrl: `/assets/${filename}` });
+            } catch (error) {
+                sendResponse(res, 500, { success: false, message: 'Ошибка загрузки изображения' });
+            }
+        });
+        return;
+    }
+
+    // Установка скидки на категорию
+    if (pathname === '/api/categories/discount' && method === 'POST') {
+        let body = '';
+        req.on('data', chunk => body += chunk);
+        req.on('end', () => {
+            const { categoryId, discount } = JSON.parse(body);
+            const products = readJSON('products.json');
+            
+            const updatedProducts = products.map(product => {
+                if (product.categoryId === categoryId) {
+                    return { ...product, discount: parseInt(discount) };
+                }
+                return product;
+            });
+            
+            writeJSON('products.json', updatedProducts);
+            sendResponse(res, 200, { success: true, message: 'Скидка применена к категории' });
+        });
+        return;
+    }
+
+    // Установка скидки на товар
+    if (pathname === '/api/products/discount' && method === 'POST') {
+        let body = '';
+        req.on('data', chunk => body += chunk);
+        req.on('end', () => {
+            const { productId, discount } = JSON.parse(body);
+            const products = readJSON('products.json');
+            const productIndex = products.findIndex(p => p.id === productId);
+            
+            if (productIndex !== -1) {
+                products[productIndex].discount = parseInt(discount);
+                writeJSON('products.json', products);
+                sendResponse(res, 200, { success: true, message: 'Скидка применена к товару' });
+            } else {
+                sendResponse(res, 404, { success: false, message: 'Товар не найден' });
             }
         });
         return;

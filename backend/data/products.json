@@ -5,10 +5,10 @@
     "price": 150000,
     "categoryId": 1,
     "description": "Современный смартфон с отличной камерой",
-    "image": "/assets/phone.jpg",
-    "discount": 0,
+    "image": "https://pi.mdev.kz/1dd6f7da-4c63-439a-bc31-866e1b51bcf9?type=webp&w=360&h=360",
+    "discount": 10,
     "stats": {
-      "purchased": 1,
+      "purchased": 2,
       "favorited": 0
     }
   },
@@ -18,11 +18,11 @@
     "price": 5000,
     "categoryId": 2,
     "description": "Хлопковая футболка премиум качества",
-    "image": "/assets/tshirt.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG97nVCWyg-Q9Y98b8eeVu5_xKRsM_dSZYQ&s",
     "discount": 10,
     "stats": {
-      "purchased": 2,
-      "favorited": 0
+      "purchased": 3,
+      "favorited": 1
     }
   },
   {
@@ -31,6 +31,20 @@
     "price": 12000,
     "categoryId": 3,
     "description": "Сборник из трех книг",
+    "discount": 0,
+    "stats": {
+      "purchased": 3,
+      "favorited": 1
+    },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK74yEo3Zh-hNBz9PxpAyCcutsysU3cG6GA&s"
+  },
+  {
+    "id": 4,
+    "name": "Двухместный диван",
+    "price": 149999,
+    "categoryId": 4,
+    "description": "Двухместный кожанный диван",
+    "image": "https://qeeb.ru/wa-data/public/shop/products/06/02/650206/images/6182796/6182796.460.png",
     "discount": 0,
     "stats": {
       "purchased": 0,

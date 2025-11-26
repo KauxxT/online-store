@@ -46,5 +46,35 @@
     "total": 150000,
     "createdAt": "2025-11-26T05:00:13.497Z",
     "status": "completed"
+  },
+  {
+    "id": 4,
+    "userId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "name": "Футболка",
+        "price": 4500,
+        "quantity": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG97nVCWyg-Q9Y98b8eeVu5_xKRsM_dSZYQ&s"
+      },
+      {
+        "productId": 1,
+        "name": "Смартфон",
+        "price": 135000,
+        "quantity": 1,
+        "image": "https://pi.mdev.kz/1dd6f7da-4c63-439a-bc31-866e1b51bcf9?type=webp&w=360&h=360"
+      },
+      {
+        "productId": 3,
+        "name": "Путь Абая",
+        "price": 12000,
+        "quantity": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK74yEo3Zh-hNBz9PxpAyCcutsysU3cG6GA&s"
+      }
+    ],
+    "total": 175500,
+    "createdAt": "2025-11-26T06:11:50.293Z",
+    "status": "completed"
   }
 ]
