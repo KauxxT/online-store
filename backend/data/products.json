@@ -1,50 +1,557 @@
 [
   {
     "id": 1,
-    "name": "Смартфон",
-    "price": 150000,
+    "name": "Apple iPhone 13 128Gb черный",
+    "price": 292853,
     "categoryId": 1,
-    "description": "Современный смартфон с отличной камерой",
-    "image": "https://pi.mdev.kz/1dd6f7da-4c63-439a-bc31-866e1b51bcf9?type=webp&w=360&h=360",
-    "discount": 10,
+    "description": "Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR, который отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно четко. А благодаря уменьшенной площади камеры TrueDepth на дисплее теперь больше места для изображения. ",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium",
+    "discount": 0,
     "stats": {
-      "purchased": 2,
+      "purchased": 0,
       "favorited": 0
     }
   },
   {
     "id": 2,
-    "name": "Футболка",
-    "price": 5000,
-    "categoryId": 2,
-    "description": "Хлопковая футболка премиум качества",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG97nVCWyg-Q9Y98b8eeVu5_xKRsM_dSZYQ&s",
-    "discount": 10,
+    "name": "Apple iPhone 15 128Gb черный",
+    "price": 365997,
+    "categoryId": 1,
+    "description": "Apple iPhone 15 - смартфон, сочетающий в себе передовую оптику, мощный процессор, долгоиграющую батарею и запоминающийся дизайн. Смартфон получил динамический остров, на который выводятся уведомления и другая важная информация.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h1d/hfc/86303745998878.jpg?format=gallery-medium",
+    "discount": 0,
     "stats": {
-      "purchased": 3,
-      "favorited": 1
+      "purchased": 0,
+      "favorited": 0
     }
   },
   {
     "id": 3,
-    "name": "Путь Абая",
-    "price": 12000,
-    "categoryId": 3,
-    "description": "Сборник из трех книг",
+    "name": " Realme Note 60X 4 ГБ/128 ГБ черный + подарок",
+    "price": 59990,
+    "categoryId": 1,
+    "description": "Realme Note 60X Сотовый телефон Realme Note 60X представлен в пластиковом корпусе, защита от пыли и влаги которого соответствует стандарту IP54",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p27/pbe/43671494.png?format=gallery-medium",
     "discount": 0,
     "stats": {
-      "purchased": 3,
-      "favorited": 1
-    },
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK74yEo3Zh-hNBz9PxpAyCcutsysU3cG6GA&s"
+      "purchased": 0,
+      "favorited": 0
+    }
   },
   {
     "id": 4,
-    "name": "Двухместный диван",
-    "price": 149999,
+    "name": "Realme Note 60X 4 ГБ/128 ГБ зеленый + подарок",
+    "price": 59990,
+    "categoryId": 1,
+    "description": "Realme Note 60X Сотовый телефон Realme Note 60X представлен в пластиковом корпусе, защита от пыли и влаги которого соответствует стандарту IP54. ",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p67/p5d/43671246.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "Кухонные весы Generic SF-400",
+    "price": 649,
+    "categoryId": 2,
+    "description": "Современные электронные кухонные весы имеют элегантную платформу из пластика. Весы выполнены в белом корпусе. Предел взвешивания 10 кг.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h47/ha1/64094073815070.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "Пылесос Deerma DX118C белый",
+    "price": 11279,
+    "categoryId": 2,
+    "description": "С вертикальным пылесосом Deerma DX118C все члены семьи полюбят уборку настолько, что будут гореть желанием делать ее каждый день.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p4f/pe2/61876460.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "Электрочайник ZY-303 черный, серебристый",
+    "price": 2785,
+    "categoryId": 2,
+    "description": "Электрочайник ZY-303 — стильное и функциональное решение для быстрого кипячения воды. Сочетая мощность 1500 Вт и дизайнерский внешний вид, он станет незаменимым помощником на вашей кухне.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h95/h84/66556923904030.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 8,
+    "name": "Мясорубка ARVION RS-2800 серебристый",
+    "price": 35990,
+    "categoryId": 2,
+    "description": "ARVION RS-2800 - мощь, металл и результат с первого прокрута!\nНастоящая мясорубка для тех, кто ценит надёжность и силу.\nARVION RS-2800 легко справляется с мясом любой плотности благодаря движку на 2800 Вт.\nКорпус из металла и нож из нержавейки - это долговечность, которую видно и чувствуется.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pbf/p14/56900651.jpeg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 9,
+    "name": "Микроволновая печь Hansa AMMF19M1SH серебристый",
+    "price": 37969,
+    "categoryId": 2,
+    "description": "Представляем вам микроволновую печь Hansa AMMF19M1SH — идеальное сочетание функциональности и стиля для вашей кухни. С её помощью вы сможете быстро разогреть или приготовить любимые блюда, не теряя при этом времени и усилий.✨",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pde/p83/62972625.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "Наушники Air pro 2 белый",
+    "price": 2296,
+    "categoryId": 3,
+    "description": "наушники Air Pro 2",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h44/h92/85730021769246.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "Умная колонка Яндекс Станция Лайт YNDX-00025 фиолетовый",
+    "price": 22990,
+    "categoryId": 3,
+    "description": "Яндекс.Станция Лайт — это яркая и компактная умная колонка, которая управляется голосом и сенсорными кнопками. Она здорово украсит интерьер и сможет развлечь ребенка: матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт свой характер — он зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужны подключение к интернету по Wi-Fi и уч. запись на Яндексе.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h9f/hfc/64362954719262.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 12,
+    "name": "Ручной штатив Tripod R1 черный",
+    "price": 585,
+    "categoryId": 3,
+    "description": "Ручной штатив Tripod R1 черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pc6/paf/9281980.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "Наушники JBL Tune 510BT черный",
+    "price": 11850,
+    "categoryId": 3,
+    "description": "Наушники JBL Tune 510BT позволяют наслаждаться мощными басами благодаря технологии JBL Pure Bass без проводов. Эти простые в использовании наушники работают до 40 часов на одном заряде аккумулятора, а, подключив зарядный кабель USB-C всего на пять минут к сети питания, вы получите еще 2 часа воспроизведения.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hef/h29/64030233788446.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 14,
+    "name": "Кронштейн NB 32-65 черный",
+    "price": 2357,
+    "categoryId": 3,
+    "description": "Кронштейн NB 32-65 черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/he0/h3e/63923567591454.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "Микрофон Maxmoll Z10 черный",
+    "price": 440,
+    "categoryId": 3,
+    "description": "Микрофон Maxmoll Z10 черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hb3/hb0/63845781635102.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "Мышь Wireless Mouse черный",
+    "price": 775,
     "categoryId": 4,
-    "description": "Двухместный кожанный диван",
-    "image": "https://qeeb.ru/wa-data/public/shop/products/06/02/650206/images/6182796/6182796.460.png",
+    "description": "Мышь Wireless Mouse черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h35/h81/79480589418526.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "Крепление для монитора NB F80 черный",
+    "price": 8000,
+    "categoryId": 4,
+    "description": "Крепление для монитора NB F80 черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h37/hf5/81272594268190.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 18,
+    "name": "Creative Bracket подставка для ноутбука UN-6",
+    "price": 1137,
+    "categoryId": 4,
+    "description": "Creative Bracket подставка для ноутбука UN-6",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h0a/ha5/64119036379166.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "Wi-Fi роутер TP-LINK TD-W8961N",
+    "price": 11866,
+    "categoryId": 4,
+    "description": "Wi-Fi роутер TP-LINK TD-W8961N",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hc9/h18/63760532275230.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "USB Flash карта Kingston DataTraveler Exodia DTX/64GB 64 Гб",
+    "price": 2201,
+    "categoryId": 4,
+    "description": "USB Flash карта Kingston DataTraveler Exodia DTX/64GB 64 Гб",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h80/hc6/63936669810718.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 21,
+    "name": "Коврик для мыши Merch-01 900x400x3 мм рисунок",
+    "price": 1198,
+    "categoryId": 4,
+    "description": "Коврик для мыши Merch-01 900x400x3 мм рисунок",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pce/p24/8461449.jpeg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 22,
+    "name": "Вешалка стойка 041077403, металл, 80x140 см, черный",
+    "price": 3990,
+    "categoryId": 5,
+    "description": "Вешалка стойка 041077403, металл, 80x140 см, черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p2e/p53/38454556.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 23,
+    "name": "Вешалка стойка 041077403, металл, 80x140 см, черный",
+    "price": 4000,
+    "categoryId": 5,
+    "description": "Вешалка стойка 041077403, металл, 80x140 см, черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p2e/p53/38454556.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "Комод BEREN Mira, 75x33x73 см, белый",
+    "price": 14999,
+    "categoryId": 5,
+    "description": "Комод BEREN Mira, 75x33x73 см, белый",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pb4/p83/83918075.jpeg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 25,
+    "name": "Стул Чили., 86x45x37 см, серый 1 шт.",
+    "price": 11176,
+    "categoryId": 5,
+    "description": "Стул Чили., 86x45x37 см, серый 1 шт.",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p87/pca/74520704.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "Диван Morbido Комфорт, 210х80 см, обивка микровелюр, серый",
+    "price": 55222,
+    "categoryId": 5,
+    "description": "Диван Morbido Комфорт, 210х80 см, обивка микровелюр, серый",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pdf/p9f/46218350.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 27,
+    "name": "Полка AAA Компакт ПК-Д4, 81х15x27 см, белый",
+    "price": 2000,
+    "categoryId": 5,
+    "description": "Полка AAA Компакт ПК-Д4, 81х15x27 см, белый",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h22/h0e/86932684308510.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "Стол компьютерный GreenMebel Бейсик, 145х50.6x135 см, белый, бежевый",
+    "price": 43990,
+    "categoryId": 5,
+    "description": "Стол компьютерный GreenMebel Бейсик, 145х50.6x135 см, белый, бежевый",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p1a/p7d/44294925.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 29,
+    "name": "Round Lab 1025 Dokdo пенка 150 мл",
+    "price": 1078,
+    "categoryId": 6,
+    "description": "Round Lab 1025 Dokdo пенка 150 мл",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pca/p77/25826932.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "Yara гель Яра Clear 20 мл",
+    "price": 338,
+    "categoryId": 6,
+    "description": "Yara гель Яра Clear 20 мл",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p81/p6c/63170910.jpeg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "Тушь для ресниц LUXVISAGE XXL",
+    "price": 1500,
+    "categoryId": 5,
+    "description": "Тушь для ресниц LUXVISAGE XXL Суперобъем Эффект Накладных Ресниц для объема черный",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h67/h40/85429558116382.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "Bella ватные палочки Cotton 160 шт",
+    "price": 439,
+    "categoryId": 6,
+    "description": "Bella ватные палочки Cotton 160 шт",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h73/hf8/84637755080734.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "Garnier Fructis Укрепляющий SOS ",
+    "price": 1545,
+    "categoryId": 6,
+    "description": "Garnier Fructis Укрепляющий SOS Восстановление для поврежденных волос шампунь 400 мл",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p14/p35/26114881.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 34,
+    "name": "Подгузники-трусики Pandi XL, 5, 40 шт",
+    "price": 499,
+    "categoryId": 7,
+    "description": "Подгузники-трусики Pandi XL, 5, 40 шт",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p65/p8f/46376316.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 35,
+    "name": "Обучающий набор Tilashar",
+    "price": 1180,
+    "categoryId": 7,
+    "description": "Обучающий набор Tilashar",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h76/h34/80721531830302.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 36,
+    "name": "Планшет для рисования",
+    "price": 418,
+    "categoryId": 7,
+    "description": "Планшет LCD Планшет для рисования",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p39/p6b/5853944.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 37,
+    "name": "Шезлонг Good Luck 111 серый",
+    "price": 4220,
+    "categoryId": 7,
+    "description": "Шезлонг Good Luck 111 серый",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p58/p21/13569877.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 38,
+    "name": "Nutrilon Premium 3 с 1 года 1200 г",
+    "price": 10169,
+    "categoryId": 7,
+    "description": "Nutrilon Premium 3 с 1 года 1200 г",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/pfe/pd4/13324745.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 39,
+    "name": "ТераФлю саше 325 мг 10 шт",
+    "price": 1900,
+    "categoryId": 8,
+    "description": "",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hc9/hcf/87293798088734.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "Парацетамол таблетки 500 мг 10 шт",
+    "price": 200,
+    "categoryId": 8,
+    "description": "",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h5b/h49/64155461025822.jpg?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 41,
+    "name": "Виферон суппозитории 150000 МЕ 10 шт",
+    "price": 3314,
+    "categoryId": 8,
+    "description": "",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h71/hc9/80974463041566.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 42,
+    "name": "NOW D-3 2000 IU витамин D3, высокоактивный капсулы 120 шт",
+    "price": 3349,
+    "categoryId": 8,
+    "description": "",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p94/pd6/46165362.png?format=gallery-medium",
+    "discount": 0,
+    "stats": {
+      "purchased": 0,
+      "favorited": 0
+    }
+  },
+  {
+    "id": 43,
+    "name": "Энтерожермина Форте суспензия 4 млрд/5 мл 10 шт",
+    "price": 3889,
+    "categoryId": 8,
+    "description": "",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p49/p09/53032432.jpg?format=gallery-medium",
     "discount": 0,
     "stats": {
       "purchased": 0,
